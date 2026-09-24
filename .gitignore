@@ -1,0 +1,22 @@
+# Compiled output
+out/
+out_peer/
+out_tracker/
+*.class
+
+# Packaged artifacts — produced by build_peer.sh / build_tracker.sh
+peer.jar
+tracker.jar
+manifest_*.txt
+temp_lib/
+
+# Submission archives
+*.zip
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS noise
+.DS_Store
+Thumbs.db
